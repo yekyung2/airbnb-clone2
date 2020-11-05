@@ -17,7 +17,7 @@ class CustomUserAdmin(UserAdmin):
                     "gender",
                     "bio",
                     "birthdate",
-                    "langage",
+                    "language",
                     "currency",
                     "superhost",
                 )
