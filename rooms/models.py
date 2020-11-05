@@ -1,12 +1,9 @@
 from django.db import models
+from core import models as core_models
 
 # Create your models here.
-class Room(models.Model):
+class Room(core_models.TimeStampedModel):
 
     """Room Model Definition"""
 
-    created = models.DateTimeField()
-    updated = models.DateTimeField()
-
-    class Meta:
-        abstract = True
+    pass
