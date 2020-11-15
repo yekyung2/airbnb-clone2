@@ -153,6 +153,7 @@ dmypy.json
 ### macOS ###
 # General
 .DS_Store
+uploads/
 .AppleDouble
 .LSOverride
 
