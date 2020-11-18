@@ -12,4 +12,5 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         times = options.get("times")
-        print("I love you")
+        for t in range(0, int(times)):
+            print("I love you")
