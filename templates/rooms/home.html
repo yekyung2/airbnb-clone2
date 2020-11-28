@@ -13,8 +13,10 @@
     {% if page is not 1 %}
         <a href="?page={{page|add:-1}}">Previous</a>
     {% endif %}
+    {% if not page == page_count %}
     Page {{page}} of {{page_count}} 
     <a href="?page={{page|add:+1}}">Next</a>
+    {% endif %}
     </h5>
 
 
